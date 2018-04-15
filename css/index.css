@@ -1,0 +1,416 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-11 15:28:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-14 09:54:03
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	box-shadow: 0 5px 5px rgb(0,0,0,0.3);
+}
+.bg{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	width: 100px;
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 40px;
+}
+.logo:hover{
+	text-shadow: 0 0 3px #6f6f07;
+}
+.right-box{
+	width: 343px;
+	height: 100%;
+	float: right;
+}
+.right-box li{
+	font-size: 10px;
+	color: #5f5069;
+	float: left;
+	line-height: 40px;
+	margin: 0 10px;
+}
+.right-box li:hover{
+	text-shadow: 0 0 3px #6f6f07;
+}
+/* 头部结束 */
+/* 个人介绍开始 */
+.bigbox{
+	width: 100%;
+	height: 500px;
+	margin: 50px;
+} 
+.pic{
+	width:500px;
+	height:500px;
+	background: red;
+	float: left;
+	margin:0 120px;
+	background: url('../img/nanshen.png') no-repeat center;
+	background-size: cover;
+}
+.about{
+	width: 500px;
+	height: 500px;
+	/* background: pink; */
+	float: left;
+	margin:0 140px 0 0px;
+}
+.about h2{
+	text-shadow: 0 0 3px;
+}
+.about .jianjie{
+	width: 400px;
+	height: 200px;
+	/* background: yellow; */
+	margin-top: 18px;
+	font-size: 13px;
+	color: #9c9eaa;
+}
+.tiao-box{
+	width: 480px;
+	height: 223px;
+	/* background: red; */
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.tiao-box li{
+	width: 480px;
+	height: 35px;
+	/* background: blue; */
+	margin-bottom: 12px;
+}
+.tiao-box li:last-child{
+	margin-bottom: 0;
+}
+.tiao-box h2{
+	font-size: 10px;
+	color: #403d5b;
+}
+.center-text{
+	width: 20px;
+	height: 15px;
+	/* background: #fff; */
+	font-size: 10px;
+}
+.tiao-box .text1{
+	margin-left: 370px;
+}
+.tiao-box .text2{
+	margin-left: 420px;
+}
+.tiao-box .text3{
+	margin-left: 320px;
+}
+.tiao-box .text4{
+	margin-left: 430px;
+}
+.tiao-box .text5{
+	margin-left: 395px;
+}
+.tiao{
+	width: 100%;
+	height: 12px;
+	/* background: yellow; */
+}
+.tiao .da{
+	width: 100%;
+	height: 100%;
+	background: #d6d6d6;
+	border-radius: 17px;
+}
+.tiao .xiao{
+	width: 400px;
+	height: 100%;
+	background: #222222;
+	border-radius: 17px;
+}
+.tiao .xiao2{
+	width: 450px;
+}
+.tiao .xiao3{
+	width: 350px;
+}
+.tiao .xiao4{
+	width: 460px;
+}
+.tiao .xiao5{
+	width: 425px;
+}
+/* 个人介绍结束 */
+/* 技能开始 */
+.main{
+	width: 100%;
+	height: 175px;
+	background: #f6f6f6;
+	padding-left: 140px;
+	padding-right: 140px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.main li{
+	width: 170px;
+	height: 100%;
+	/* background: #000; */
+	float: left;
+	margin-right:153px;
+}
+.main li:last-child{
+	margin-right: 0;
+}
+.main img{
+	display: block;
+	width: 170px;
+	height: 175px;
+}
+/* 技能结束 */
+/* 作品开始 */
+.work-start{
+	width: 1140px;
+	height: 150px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.start-text{
+	width: 330px;
+	height: 85px;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top:30px;
+}
+.text-title{
+	width: 100%;
+	height: 25px;
+	/* background: green; */
+	font-size: 25px;
+	font-weight: bolder;
+	color: #333333;
+	font-family: "楷体";
+	line-height: 25px;
+	text-align: center;
+	text-shadow: 0 0 5px;
+	margin-bottom: 10px;
+}
+.text-contain{
+	width: 100%;
+	height: 20px;
+	font-size: 15px;
+	font-family: "幼圆";
+	color: #a4a1ac;
+	text-shadow: 0 0 5px;
+	line-height: 20px;
+	/* background: green; */
+	margin-bottom: 20px;
+}
+.text-end{
+	width: 100%;
+	height: 20px;
+	/* background: green; */
+	font-size: 20px;
+	color: #a4a1ac;
+	text-shadow: 0 0 5px;
+	line-height: 20px;
+	text-align: center;
+}
+.work{
+	width: 1140px;
+	height: 600px;
+	/* background: pink; */
+	margin: 0 auto; 
+}
+.work li{
+	width: 352px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+	margin-right: 42px;
+}
+.work li:last-child{
+	margin-right: 0;
+}
+.shang1{
+	width: 100%;
+	height: 340px;
+	/* background: blue; */
+	margin-bottom: 20px;
+	background: url('../img/1.1.png') no-repeat center;
+	background-size: cover;
+}
+.xia1{
+	width: 100%;
+	height: 240px;
+	/* background: red; */
+	background: url('../img/2.2.png') no-repeat center;
+	background-size: cover;
+}
+.shang2{
+	width: 100%;
+	height: 280px;
+	/* background: blue; */
+	margin-bottom: 20px;
+	background: url('../img/3.3.png') no-repeat center;
+	background-size: cover;
+}
+.xia2{
+	width: 100%;
+	height: 300px;
+	/* background: red; */
+	background: url('../img/4.4.png') no-repeat center;
+	background-size: cover;
+}
+.shang3{
+	width: 100%;
+	height: 360px;
+	/* background: blue; */
+	margin-bottom: 20px;
+	background: url('../img/5.5.png') no-repeat center;
+	background-size: cover;
+}
+.xia3{
+	width: 100%;
+	height: 220px;
+	/* background: red; */
+	background: url('../img/6.6.png') no-repeat center;
+	background-size: cover;
+}
+.work li a{
+	display: block;
+	color: #484453;
+	font-size: 12px;
+	text-align: center;
+	text-shadow: 0 0 3px;
+}
+/* 作品结束 */
+/* 照片开始 */
+.picture{
+	width: 1140px;
+	height: 400px;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+.pic-text{
+	width: 100%;
+	height: 75px;
+	/* background: red; */
+}
+.last{
+	width: 100%;
+	height: 25px;
+	/* background: yellow; */
+	font-size: 25px;
+	color: #433333;
+	text-shadow: 0 0 5px;
+	line-height: 25px;
+	text-align: center;
+}
+.first{
+	width: 100%;
+	height: 15px;
+	/* background: green; */
+	font-size: 15px;
+	color: #acb7d0;
+	text-shadow: 0 0 5px;
+	line-height: 15px;
+	text-align: center;
+	margin-top: 10px;
+}
+.second{
+	width: 100%;
+	height: 15px;
+	/* background: green; */
+	font-size: 15px;
+	color: #acb7d0;
+	line-height: 15px;
+	text-shadow: 0 0 5px;
+	text-align: center;
+	margin-top: 10px;
+}
+.picc{
+	width: 100%;
+	height: 300px;
+	/* background: yellow; */
+	margin-top: 25px;
+}
+.picc li{
+	width: 370px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+	margin-right: 15px;
+}
+.picc li:last-child{
+	margin-right: 0;
+}
+.picc img{
+	display: block;
+	width: 370px;
+	height: 300px;
+}
+/* 照片结束 */
+/* 底端开始 */
+.bottom{
+	width: 100%;
+	height: 110px;
+	background: #000;
+	margin-top: 49px;
+	border-top: 2px solid #9b9b9b;
+}
+.bottom-center{
+	width: 220px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.icon{
+	width:100%;
+	height: 23px;
+	/* background: red; */
+	margin-top: 33px;
+	padding-left: 44px;
+	padding-right: 44px;
+	box-sizing: border-box;
+}
+.icon li{
+	width: 20px;
+	height: 20px;
+	/* background: yellow; */
+	float: left;
+	margin:3px 15px 0 0;
+}
+.icon li:last-child{
+	margin-right: 0;
+}
+.icon li img{
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.bottom-center h2{
+	font-size: 9px;
+	color: #2d3541;
+	text-align: center;
+	margin-top: 9px;
+}
+/* 底端结束 */
